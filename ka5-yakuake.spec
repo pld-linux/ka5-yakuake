@@ -1,14 +1,14 @@
-%define		kdeappsver	21.08.2
+%define		kdeappsver	21.08.3
 %define		qtver		5.9.0
 %define		kaname		yakuake
 Summary:	KDE Terminal Emulator
 Name:		ka5-%{kaname}
-Version:	21.08.2
+Version:	21.08.3
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	78dae04ce064eb02f683f9e313e3c3b2
+# Source0-md5:	b267467806c39318dbb21d9c0ac90093
 URL:		http://www.kde.org/
 BuildRequires:	Qt5Core-devel >= %{qtver}
 BuildRequires:	cmake >= 2.8.12
