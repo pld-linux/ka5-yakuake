@@ -1,17 +1,17 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	22.12.1
+%define		kdeappsver	22.12.2
 %define		qtver		5.15.2
 %define		kaname		yakuake
 Summary:	KDE Terminal Emulator
 Name:		ka5-%{kaname}
-Version:	22.12.1
+Version:	22.12.2
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	0a63e1835e8776c02131b697966ebe8b
+# Source0-md5:	8c3df1f542cf397388b8c39737005b78
 URL:		http://www.kde.org/
 BuildRequires:	Qt5Core-devel >= %{qtver}
 BuildRequires:	cmake >= 2.8.12
